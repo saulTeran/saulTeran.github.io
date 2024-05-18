@@ -1,0 +1,88 @@
+
+h1{
+    color: blue;
+    background-color: red;
+    text-transform: uppercase;
+}
+/* aaaa */
+#principal {
+    color: yellow;
+    background-color: blue;
+}
+h2{
+    color: yellow;
+    background-color: blue;
+}
+
+.azul{
+    color: blue;
+}
+p{
+    color: red;
+}
+#tipos-estilos{
+    color: crimson;
+    list-style: upper-alpha;
+}
+main{
+    background-color: aliceblue;
+}
+ol{
+    color: darkred;
+    list-style: upper-roman;
+}
+ul{
+    list-style-type: circle;
+}
+#ul-estilo{
+ list-style: circle;
+    color: deeppink;
+    background-color: black;
+}
+.font{
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-size: 50px;
+    color: rgb(11, 11, 147);
+    background-color: rgb(144, 30, 30);
+    line-height: 60px;
+    letter-spacing: 15px;
+    word-spacing: 10px;
+    text-indent: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+header{
+    text-align: center;
+}
+nav{
+    text-align: right;
+    background-color: rgb(168, 189, 226);
+}
+table{
+    background-color: rgb(158, 22, 22);
+    color: white;
+    text-align: center;
+}
+thead{
+    background-color: darkblue;
+    color: white;
+}
+.recreo{
+    background-color: yellow;
+    color: black;
+}
+#buscador{
+    text-align: right;
+}
+input{
+    background-color: black;
+    color: white;
+}
+.boton{
+       background-color: blue;
+       color: white;
+       text-transform: uppercase;
+}
+#consulta{
+       text-align: center;
+}

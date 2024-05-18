@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 2 html</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagenes/imagen barcita.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>visca barca</h1>
+        <a href="https://www.fcbarcelona.es/es/" target="_blank">
+            <img src="imagenes/imagen barcita.png" alt="logo barcita" title="barcaa" width="200" height="200">
+        </a>
+        <nav>
+            <p> <a href="us.html">nosotros</a>
+                <a href="#">nuestros servicios</a>
+                <a href="#contacto">datos de contacto</a>
+                <a href="#consulta">hazme una consulta</a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <section id="buscador">
+            <br>
+            <form target="_blank" action="http://google.com/search">
+                <label for="buscar">buscar en google</label>
+                <input type="text" placeholder="escribe algo y presiona enter" size="30" / name="q" id="buscar">
+                <!-- <input type="submit" value="buscar"> -->
+                <button class="boton">buscar</button>
+            </form>
+        </section>
+        <section id="practica">
+            <h1>practicando estilos</h1>
+            <p class="font">
+                lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to
+                make
+                a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                containing
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                versions
+                of Lorem Ipsum
+            </p>
+        </section>
+        <section id="ejercicios">
+            <h1 id="principal">estilos globales</h1>
+            <p class="azul">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been
+                the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the leap into
+                electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                PageMaker
+                including versions of Lorem Ipsum</p>
+            <p class="azul">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been
+                the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the leap into
+                electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                PageMaker
+                including versions of Lorem Ipsum</p>
+            <p class="azul">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been
+                the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the leap into
+                electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                PageMaker
+                including versions of Lorem Ipsum</p>
+            <ul id="ul-estilo">
+                <li>hola</li>
+                <li>como estas?</li>
+                <li>espero que bien</li>
+            </ul>
+        </section>
+        <section>
+            <h2>tipo de estilos</h2>
+            <ol>
+                <li>inline</li>
+                <li>globales en la pagina</li>
+                <li>en archivos externos css
+                    <ol id="tipos-estilos">
+                        <li>del mismo sitio</li>
+                        <li>sitios externos
+                            <ul>
+                                <li>con frameworks</li>
+                                <li>sin frameworks</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h2>horario de clase</h2>
+            <table border="1" align="center" width="600px">
+                <!--encabezado de la tabla-->
+                <thead>
+                    <!--primera fila de la tabla-->
+                    <tr>
+                        <th></th>
+                        <th>lunes</th>
+                        <th>martes</th>
+                        <th>miercoles</th>
+                        <th>jueves</th>
+                        <th>viernes</th>
+                        <th>sabado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--segunda fila de la tabla-->
+                    <tr>
+                        <td>7:15 - 9:30</td>
+                        <td>educacion fisica</td>
+                        <td>matematica</td>
+                        <td>fisica</td>
+                        <td>biologia</td>
+                        <td></td>
+                        <td rowspan="2">html y css</td>
+                    </tr>
+                    <tr>
+                        <td>9:30 - 10:00</td>
+                        <td colspan="5" class="recreo">recreo</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td>biologia</td>
+                        <td>ingles</td>
+                        <td>castellano</td>
+                        <td>matematica</td>
+                        <td>quimica</td>
+                        <td class="recreo">recreo</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 - 1:00</td>
+                        <td></td>
+                        <td>italiano</td>
+                        <td></td>
+                        <td>historia</td>
+                        <td></td>
+                        <td rowspan="2">logica de programacion</td>
+                    </tr>
+                    <tr>
+                        <td>2:45 - 4:00</td>
+                        <td></td>
+                        <td></td>
+                        <td>fluvo</td>
+                        <td></td>
+                        <td>quimica</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>video</h2>
+            <article>
+                <video src="videos/Intro Cadifriday.mp4" loop muted autoplay controls height="500" width="500"></video>
+            </article>
+            <article>
+                <audio src="audios/y2mate.com - Future Metro Boomin Travis Scott  Cinderella Official Audio.mp3"
+                    controls></audio>
+            </article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/owBwegzx5ks?si=Ru3_2Ph7PP7skcAu"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="consulta">
+            <h2>hazme una cosulta</h2>
+            <p>si tienes una consulta, por favor escribeme</p>
+            <form action="">
+                <div>
+                    <label for="nombre">nombre: </label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="correo">correo: </label>
+                    <input type="email" name="correo" id="correo">
+                </div>
+                <div>
+                    <label for="tipo">tipo de cliente</label>
+                    <select name="tipo" id="tipo">
+                        <option value="j">juridico</option>
+                        <option value="n" selected>natural</option>
+                        <option value="g">gubernamental</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="texto">escribe tu consulta: </label>
+                    <textarea name="" id="texto" cols="30" rows="10"></textarea>
+                    <!-- <input type="submit" value="enviar consulta"> -->
+                </div>
+                <div>
+                    <input type="checkbox" checked name="" id="politicas">
+                    <label for="politicas">estoy de acuerdo con las politicas de privacidad</label>
+                </div>
+                <div>&nbsp;</div>
+                <button class="boton">enviar cosulta</button>
+                <input class="boton" type="reset" value="borrar">
+                <div>&nbsp;</div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hr id="contacto">
+        <a target="_blank"
+            href="https://www.fcbarcelona.es/es/noticias/3544418/el-fc-barcelona-presenta-su-propio-whatsapp-channel"><img
+                src="imagenes/whatsapp icono.png" alt="escribe al whatsapp" width="50" height="50"></a>
+        <a href="mailto:oab@fcbarcelona.cat"><img src="imagenes/gmail icono.png" alt="gmail" width="50" height="50"></a>
+        <a href="tel:902 1899 00"><img src="imagenes/llamada icono.png" alt="llama" width="50" height="50"></a>
+        <a target="_blank" href="https://t.me/s/barcelona"><img src="imagenes/telegram icono.png" alt="telegram"
+                width="50" height="50"></a>
+        <a target="_blank" href="https://www.instagram.com/fcbarcelona/"><img src="imagenes/logo instagram.png"
+                alt="instagram" width="50" height="50"></a>
+    </footer>
+</body>
+
+</html>
